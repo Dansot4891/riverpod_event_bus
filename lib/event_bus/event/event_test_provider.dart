@@ -1,7 +1,7 @@
 import 'package:riverpod_annotation/riverpod_annotation.dart';
-import 'package:velog/event_bus/riverpod_ex%20&%20supabase%20&%20hive/core/dialog/app_dialog.dart';
-import 'package:velog/event_bus/riverpod_ex%20&%20supabase%20&%20hive/core/extension/ref_extension.dart';
-import 'package:velog/event_bus/riverpod_ex%20&%20supabase%20&%20hive/core/router/routes.dart';
+import 'package:riverpod_event_bus/event_bus/core/dialog/app_dialog.dart';
+import 'package:riverpod_event_bus/event_bus/core/extension/ref_extension.dart';
+import 'package:riverpod_event_bus/event_bus/core/router/routes.dart';
 
 part 'event_test_provider.g.dart';
 

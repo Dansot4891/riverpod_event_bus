@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:velog/event_bus/riverpod_ex%20&%20supabase%20&%20hive/core/event/app_event.dart';
-import 'package:velog/event_bus/riverpod_ex%20&%20supabase%20&%20hive/core/event/app_event_provider.dart';
+import 'package:riverpod_event_bus/event_bus/core/event/app_event.dart';
+import 'package:riverpod_event_bus/event_bus/core/event/app_event_provider.dart';
 
 // Ref에 이벤트 헬퍼를 추가하는 Extension입니다.
 // - 기존 뷰모델의 구조를 바꾸지 않고 Ref에 메서드를 붙일 수 있습니다.

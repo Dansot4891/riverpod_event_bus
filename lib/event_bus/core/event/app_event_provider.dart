@@ -1,5 +1,5 @@
 import 'package:riverpod_annotation/riverpod_annotation.dart';
-import 'package:velog/event_bus/riverpod_ex%20&%20supabase%20&%20hive/core/event/app_event.dart';
+import 'package:riverpod_event_bus/event_bus/core/event/app_event.dart';
 
 part 'app_event_provider.g.dart';
 

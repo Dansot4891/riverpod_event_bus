@@ -1,9 +1,9 @@
 import 'package:go_router/go_router.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
-import 'package:velog/event_bus/riverpod_ex%20&%20supabase%20&%20hive/core/event/key/event_key_provider.dart';
-import 'package:velog/event_bus/riverpod_ex%20&%20supabase%20&%20hive/core/router/routes.dart';
-import 'package:velog/event_bus/riverpod_ex%20&%20supabase%20&%20hive/presentation/screen/event/event_screen.dart';
-import 'package:velog/event_bus/riverpod_ex%20&%20supabase%20&%20hive/presentation/screen/event/event_screen2.dart';
+import 'package:riverpod_event_bus/event_bus/core/event/key/event_key_provider.dart';
+import 'package:riverpod_event_bus/event_bus/core/router/routes.dart';
+import 'package:riverpod_event_bus/event_bus/event/event_screen.dart';
+import 'package:riverpod_event_bus/event_bus/event/event_screen2.dart';
 
 final routerProvider = Provider<GoRouter>((ref) {
   final appEventKey = ref.watch(appEventKeyProvider);
